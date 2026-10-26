@@ -44,7 +44,6 @@ function Hero() {
         <motion.div className="portrait-orbit orbit-one" style={{ rotate: orbitRotate }} /><div className="portrait-orbit orbit-two" />
         <div className="portrait-glow" />
         <img src="/mridul.png" alt="Portrait of Mridul Rawat" className="portrait" />
-        <div className="hero-sticker"><span>BUILD</span><span>WITH</span><b>INTENT↗</b></div>
         <div className="portrait-caption"><span>BASED IN INDIA</span><span>AVAILABLE WORLDWIDE ↗</span></div>
       </motion.div>
       <div className="hero-index"><span>01 / 05</span><span>SCROLL TO EXPLORE ↓</span></div>
@@ -130,7 +129,7 @@ function BugHunt() {
 }
 
 function Contact() {
-  return <footer className="contact section-pad" id="contact"><p className="eyebrow">HAVE A GOOD ONE IN MIND?</p><h2>Let’s make<br /><em>it real.</em></h2><a className="contact-email" href="mailto:mridulrawat21@gmail.com">mridulrawat21@gmail.com <ArrowUpRight size={21} /></a><div className="footer-bottom"><a href="#top" className="brand"><span className="brand-mark">M</span><span>MRIDUL RAWAT<small>FULL STACK DEVELOPER</small></span></a><div className="social-links"><a href="https://github.com/Shanki21" target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={19} /></a><a href="tel:+917531988764" aria-label="Call Mridul"><Phone size={18} /></a></div><span>DESIGNED WITH INTENT · © 2026</span></div></footer>;
+  return <footer className="contact section-pad" id="contact"><p className="eyebrow">HAVE A GOOD ONE IN MIND?</p><h2>Let’s make<br /><em>it real.</em></h2><a className="contact-email" href="mailto:mridulrawat21@gmail.com">mridulrawat21@gmail.com <ArrowUpRight size={21} /></a><div className="footer-bottom"><a href="#top" className="brand"><span className="brand-mark">M</span><span>MRIDUL RAWAT<small>FULL STACK DEVELOPER</small></span></a><div className="social-links"><a href="https://github.com/Shanki21" target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={19} /></a><a href="tel:+917531988764" aria-label="Call Mridul"><Phone size={18} /></a></div></div></footer>;
 }
 
 export default function App() {
